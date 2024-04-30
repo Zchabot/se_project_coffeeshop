@@ -162,7 +162,7 @@
   padding: 0;
 }
 
-.recipes__video-play {
+.recipes__iframe {
   border: none;
   width: 560px;
   height: 315px;
