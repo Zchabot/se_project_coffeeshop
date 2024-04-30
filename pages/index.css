@@ -157,12 +157,12 @@
   justify-content: center;
 }
 
-.recipes__video_block {
+.recipes__video {
   margin: 0;
   padding: 0;
 }
 
-.recipes__video {
+.recipes__video-play {
   border: none;
   width: 560px;
   height: 315px;
