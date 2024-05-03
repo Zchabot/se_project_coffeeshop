@@ -8,6 +8,7 @@
   position: relative;
   height: 39px;
   width: 105px;
+  left: -50px;
 }
 
 .nav__links {
