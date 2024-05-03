@@ -4,9 +4,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fff;
-  min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
   padding: 100px 0;
   display: flex;
   flex-direction: column;
@@ -16,7 +13,7 @@
 .menu__title {
   max-width: 780px;
   margin: 0 0 24px;
-  font-family: "Inter", "Times New Roman", serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -26,7 +23,7 @@
 .menu__subtitle {
   max-width: 780px;
   margin: 0 0 100px;
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -41,45 +38,4 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 100px;
-}
-
-.card {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  width: 540px;
-  justify-content: flex-start;
-}
-
-.card__title {
-  margin: 0;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.card__list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin: 0;
-  padding: 0;
-}
-
-.card__list-item {
-  list-style-type: none;
-  display: flex;
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.card__list-divider {
-  flex-grow: 1;
-  border-bottom: 1px solid #000;
 }

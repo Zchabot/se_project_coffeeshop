@@ -13,6 +13,7 @@
       content="coffee, library, study, specialty coffee, coffee recipes"
     />
     <title>Cofee Shop</title>
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -40,7 +41,7 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="span-accent">Specialty Coffee</span>
+          <span class="header__span-accent">Specialty Coffee</span>
           in the Triple Peaks Library
         </h1>
         <p class="header__description">
@@ -70,8 +71,8 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <div class="recipes__videos">
-            <div class="recipes__video">
+          <ul class="recipes__videos">
+            <li class="recipes__video">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=Bgri3OfKwK_eu-o_"
@@ -80,9 +81,11 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__video-caption">Aeropress recipe ~5 min</p>
-            </div>
-            <div class="recipes__video">
+              <p class="recipes__video-caption">
+                <span>Aeropress recipe</span><span>~5 mins</span>
+              </p>
+            </li>
+            <li class="recipes__video">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=7eD3eb1aCLgM2PZz"
@@ -91,9 +94,11 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__video-caption">French press recipe ~15 min</p>
-            </div>
-          </div>
+              <p class="recipes__video-caption">
+                <span>French press recipe</span><span>~15 min</span>
+              </p>
+            </li>
+          </ul>
         </section>
         <section class="reservation" id="reservation-page">
           <h2 class="reservation__title">Book a table</h2>
@@ -155,7 +160,7 @@
             use biodegradable cups. All teas from our collection are $2/cup.
           </p>
           <div class="menu__cards">
-            <div class="menu__cards card">
+            <div class="card">
               <h3 class="card__title">Filter</h3>
               <ul class="card__list">
                 <li class="card__list-item">
@@ -176,7 +181,7 @@
                 </li>
               </ul>
             </div>
-            <div class="menu__cards card">
+            <div class="card">
               <h3 class="card__title">Espresso</h3>
               <ul class="card__list">
                 <li class="card__list-item">
@@ -194,7 +199,7 @@
                 </li>
               </ul>
             </div>
-            <div class="menu__cards card">
+            <div class="card">
               <h3 class="card__title">Baked Goods</h3>
               <ul class="card__list">
                 <li class="card__list-item">
